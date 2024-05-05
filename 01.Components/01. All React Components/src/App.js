@@ -8,10 +8,18 @@ function App() {
     <div className="App">
       {/* Accordion component */}
       {/* <Accordion/> */}
-            {/* Custom Modal Component */}
+
+      {/* Custom Modal Component */}
       {/* <ModalTest/> */}
+
       {/* Custom tabs component */}
-      <TabTest />
+      {/* <TabTest /> */}
+
+      {/* Feature Flag IMplementation */}
+      {/* <FeatureFlagGlobalState>
+        <FeatureFlags />
+      </FeatureFlagGlobalState> */}
+
     </div>
   );
 }
