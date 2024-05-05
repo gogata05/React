@@ -2,7 +2,7 @@ import "./App.css";
 import Accordion from "./components/accordion";
 import ModalTest from "./components/custom-modal-popup/modal-test";
 import TabTest from "./components/custom-tabs/tab-test";
-
+import GithubProfileFinder from "./components/github-profile-finder";
 function App() {
   return (
     <div className="App">
@@ -15,11 +15,8 @@ function App() {
       {/* Custom tabs component */}
       {/* <TabTest /> */}
 
-      {/* Feature Flag IMplementation */}
-      {/* <FeatureFlagGlobalState>
-        <FeatureFlags />
-      </FeatureFlagGlobalState> */}
-
+      {/* Github profile finder */}
+      <GithubProfileFinder />
     </div>
   );
 }
