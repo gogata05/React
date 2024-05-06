@@ -13,6 +13,7 @@ import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
 import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-section";
 import SearchAutocomplete from "./components/search-autocomplete-with-api";
 import StarRating from "./components/star-rating";
+import TicTacToe from "./components/tic-tact-toe";
 
 function App() {
   return (
@@ -61,7 +62,10 @@ function App() {
       {/* <SearchAutocomplete /> */}
 
       {/* Star rating component */}
-      <StarRating noOfStars={5} />
+      {/* <StarRating noOfStars={5} /> */}
+
+      {/* Tic tac toe */}
+      <TicTacToe />
     </div>
   );
 }
