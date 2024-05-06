@@ -7,6 +7,7 @@ import ImageSlider from "./components/image-slider";
 import LightDarkMode from "./components/light-dark-mode";
 import LoadMoreData from "./components/load-more-data";
 import QRCodeGenerator from "./components/qr-code-generator";
+import RandomColor from "./components/random-color";
 
 function App() {
   return (
@@ -37,7 +38,10 @@ function App() {
       {/* <LoadMoreData /> */}
 
       {/* QR code generator */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+
+      {/* Random color component */}
+      {/* <RandomColor/> */}
     </div>
   );
 }
