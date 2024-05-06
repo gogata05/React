@@ -5,6 +5,7 @@ import TabTest from "./components/custom-tabs/tab-test";
 import GithubProfileFinder from "./components/github-profile-finder";
 import ImageSlider from "./components/image-slider";
 import LightDarkMode from "./components/light-dark-mode";
+import LoadMoreData from "./components/load-more-data";
 
 function App() {
   return (
@@ -27,8 +28,12 @@ function App() {
         page={"1"}
         limit={"10"}
       /> */}
+
       {/* light and dark theme switch */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
+
+      {/* Load more products component */}
+      <LoadMoreData />
     </div>
   );
 }
