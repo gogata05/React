@@ -9,7 +9,8 @@ import LoadMoreData from "./components/load-more-data";
 import QRCodeGenerator from "./components/qr-code-generator";
 import RandomColor from "./components/random-color";
 import ScrollIndicator from "./components/scroll-indicator";
-
+import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
+import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-section";
 function App() {
   return (
     <div className="App">
@@ -45,7 +46,13 @@ function App() {
       {/* <RandomColor/> */}
 
       {/* Scroll indicator component */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+
+      {/* Scroll to Top and Bottom */}
+      {/* <ScrollToTopAndBottom/> */}
+
+      {/* Scroll to a Particular Section */}
+      {/* <ScrollToSection/> */}
     </div>
   );
 }
