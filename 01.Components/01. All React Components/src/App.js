@@ -8,6 +8,7 @@ import LightDarkMode from "./components/light-dark-mode";
 import LoadMoreData from "./components/load-more-data";
 import QRCodeGenerator from "./components/qr-code-generator";
 import RandomColor from "./components/random-color";
+import ScrollIndicator from "./components/scroll-indicator";
 
 function App() {
   return (
@@ -42,6 +43,9 @@ function App() {
 
       {/* Random color component */}
       {/* <RandomColor/> */}
+
+      {/* Scroll indicator component */}
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </div>
   );
 }
