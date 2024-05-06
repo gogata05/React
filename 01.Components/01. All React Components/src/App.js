@@ -6,6 +6,7 @@ import GithubProfileFinder from "./components/github-profile-finder";
 import ImageSlider from "./components/image-slider";
 import LightDarkMode from "./components/light-dark-mode";
 import LoadMoreData from "./components/load-more-data";
+import QRCodeGenerator from "./components/qr-code-generator";
 
 function App() {
   return (
@@ -33,7 +34,10 @@ function App() {
       {/* <LightDarkMode /> */}
 
       {/* Load more products component */}
-      <LoadMoreData />
+      {/* <LoadMoreData /> */}
+
+      {/* QR code generator */}
+      <QRCodeGenerator />
     </div>
   );
 }
