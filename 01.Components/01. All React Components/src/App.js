@@ -11,6 +11,7 @@ import RandomColor from "./components/random-color";
 import ScrollIndicator from "./components/scroll-indicator";
 import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
 import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-section";
+import SearchAutocomplete from "./components/search-autocomplete-with-api";
 function App() {
   return (
     <div className="App">
@@ -53,6 +54,9 @@ function App() {
 
       {/* Scroll to a Particular Section */}
       {/* <ScrollToSection/> */}
+
+      {/* Search Autocomplete */}
+      <SearchAutocomplete />
     </div>
   );
 }
