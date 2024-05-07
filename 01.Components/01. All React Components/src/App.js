@@ -14,6 +14,8 @@ import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-sec
 import SearchAutocomplete from "./components/search-autocomplete-with-api";
 import StarRating from "./components/star-rating";
 import TicTacToe from "./components/tic-tact-toe";
+import TreeView from "./components/tree-view";
+import menus from "./components/tree-view/data";
 
 function App() {
   return (
@@ -65,7 +67,10 @@ function App() {
       {/* <StarRating noOfStars={5} /> */}
 
       {/* Tic tac toe */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+
+      {/*Left Tree navigation menu- Tree view component/menu UI component */}
+      <TreeView menus={menus} />
     </div>
   );
 }
