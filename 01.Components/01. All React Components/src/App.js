@@ -17,7 +17,7 @@ import TicTacToe from "./components/tic-tact-toe";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
 import UseFetchHookTest from "./components/use-fetch/test";
-
+import UseOnclickOutsideTest from "./components/use-outside-click/test";
 function App() {
   return (
     <div className="App">
@@ -74,7 +74,10 @@ function App() {
       {/* <TreeView menus={menus} /> */}
 
       {/* useFetch - Custom Hook Test*/}
-      <UseFetchHookTest />
+      {/* <UseFetchHookTest /> */}
+
+      {/* Use Onclick Outside Hook Test */}
+      <UseOnclickOutsideTest />
     </div>
   );
 }
